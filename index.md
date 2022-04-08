@@ -15,13 +15,16 @@
 2. Two 
 3. Three
 
+
 Horizontol Rule:
----
+
+*** 
 
 'Inline monke' 
 
+' ' '
 # code block
 print 'monke'
-
+' ' '
 
 
