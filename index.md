@@ -28,3 +28,11 @@ print 'indent 4 spaces'
 ```
 
 Lots of monkes on this page 
+
+Test 1:
+[Lab Report 1](lab-report-1-week-2.html)
+
+
+Test 2:
+[Lab Report 1](https://<your-username>.github.io/<your-lab-reports-repo>/lab-report-1-week-2.html)
+
