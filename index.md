@@ -7,9 +7,9 @@
 
 > Monke in blockquote
 
-*1
-*2
-*3
+* 1
+* 2
+* 3
 
 1. One
 2. Two 
