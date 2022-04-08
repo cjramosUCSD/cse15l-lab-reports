@@ -20,7 +20,7 @@ Horizontol Rule:
 
 *** 
 
-`Inline monke`
+`Inline monke
 
 ` ` `
 # code block
