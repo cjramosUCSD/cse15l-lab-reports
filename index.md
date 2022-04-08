@@ -34,5 +34,5 @@ Test 1:
 
 
 Test 2:
-[Lab Report 1](https://<cjramosUCSD>.github.io/<your-lab-reports-repo>/lab-report-1-week-2.html) 
+[Lab Report 1](https://cjramosUCSD.github.io/<your-lab-reports-repo>/lab-report-1-week-2.html) 
 
