@@ -1,4 +1,4 @@
-#CSE15L Lab 2
+# CSE15L Lab 2
 ## Chester James Ramos
 **Bold Monke**
 *Italic Monke*
