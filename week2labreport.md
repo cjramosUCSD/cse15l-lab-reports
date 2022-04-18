@@ -75,17 +75,18 @@ Where user-name is your personal computer user name (not ucsd), id_rsa.pub will 
 
 ## ***Optimizing Remote Running***
 
-- You can use instantly do <br>
-```scp filename.filetype cs15lsp22zz@ieng6.ucsd.edu```
-- You can also log in extremely fast and use this command 
-```cp filename.filetype OtherMain.java; javac OtherMain.java; java filename``` <br>
-to compile and run the file alltogether
+- For optimizing remote running we can do login and check the current directory in the ieng computer <br>
 
-![image](fast.jpg)
+    ```ssh cs15lsp22zz@ieng6.ucsd.edu "ls"```
+    <br> Replace zzz with personal letters
 
-- Example off the compile and run command together in one line, but doesn't work due to the a file error 
+- We can also put a bunch of commands together in the same line by using semi-colons. In this example we can copy a file to the computer, compile it and run it
 
-![image](fast2.jpg)
+    ```cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
+
+![Image])()
+
+- Now to do that multiple times we can use the up arrow key to reuse the previous terminal line we used 
 
 
 
