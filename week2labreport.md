@@ -22,8 +22,8 @@
     - Your terminal should pop up on Visual Studio in the bottom middle-right area
 ![Image](TerminalStep.jpg)
 
-- After that type 
-```ssh cs15lsp22zz@ieng6.ucsd.edu``` 
+- After that type <br>
+```ssh cs15lsp22zz@ieng6.ucsd.edu``` <br>
 into the terminal, but instead of zz it should be your own 3 letters and type in your password (it will be blank) and select yes if it's your first time logging in
 
 ![Image](sshterminal.jpg)
@@ -32,22 +32,26 @@ into the terminal, but instead of zz it should be your own 3 letters and type in
 
 - Try some of these commands in the ieng6 computer on your terminal 
 
-    - cd ~
-    - cd
-    -  ls -lat
-    - ls -a
-    - ls (directory) where (directory) is /home/linux/ieng6/cs15lsp22/cs15lsp22abc, where the abc is one of the other group members’ username
-    - cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
-    - cat /home/linux/ieng6/cs15lsp22/public/hello.txt
+    - ```cd ~```
+    - ```cd```
+    - ```ls -lat```
+    - ```ls -a```
+    - ```ls (directory) where (directory) is /home/linux/ieng6/cs15lsp22/cs15lsp22abc, where the abc is one of the other group members’ username```
+    - ```cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/```
+    - ```cat /home/linux/ieng6/cs15lsp22/public/hello.txt```
 
-- Using `ls -lat` example in terminal gives me something like this 
+- Using <br>
+```ls -lat``` <br>
+example in terminal gives me something like this 
 ![Image](tryingcommands.jpg)
 
 ## ***Moving Files Into scp***
 
 - Once you have a file ready or created, click terminal on the top bar again and make a split terminal (This will keep the ieng6 terminal we used and make a new one directed only on your personal computer)
 
-- After you can run `scp *filename.filetype* cs15lsp22zz@ucsd.edu~/` and login again 
+- After you can run <br>
+```scp *filename.filetype* cs15lsp22zz@ucsd.edu~/```<br> 
+and login again 
 
 - To check you can use the original terminal we logged into ieng6 with and use the command `ls`. If it is a java file you can javac and java on the ieng6 since it has it's own version of java installed
 
@@ -57,7 +61,11 @@ into the terminal, but instead of zz it should be your own 3 letters and type in
 
 - If your on windows follow these steps on this [website](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) up to the fourth image
 
-- Now that you have a key for windows, you do not have to do `ssh-keygen -t ed25519` and instead just do the  `scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys` Where user-name is your personal computer user name (not ucsd), id_rsa.pub will be in where it says "Your public key has been saved" after "/.ssh", and replacing your personal letter for zz
+- Now that you have a key for windows, you do not have to do <br>
+```ssh-keygen -t ed25519``` <br>
+and instead just do the <br>
+```scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys``` <br>
+Where user-name is your personal computer user name (not ucsd), id_rsa.pub will be in where it says "Your public key has been saved" after "/.ssh", and replacing your personal letter for zz
 
 ![image](sshkey.jpg)
 
@@ -67,8 +75,11 @@ into the terminal, but instead of zz it should be your own 3 letters and type in
 
 ## ***Optimizing Remote Running***
 
-- You can use instantly do `scp filename.filetype cs15lsp22zz@ieng6.ucsd.edu` now
-- You can also log in extremely fast and use this command `cp filename.filetypeOtherMain.java; javac OtherMain.java; java filename` to compile and run the file alltogether
+- You can use instantly do <br>
+```scp filename.filetype cs15lsp22zz@ieng6.ucsd.edu```
+- You can also log in extremely fast and use this command 
+```cp filename.filetype OtherMain.java; javac OtherMain.java; java filename``` <br>
+to compile and run the file alltogether
 
 ![image](fast.jpg)
 
