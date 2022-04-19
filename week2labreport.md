@@ -84,9 +84,15 @@ Where user-name is your personal computer user name (not ucsd), id_rsa.pub will 
 
     ```cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
 
-![Image])()
+![Image](finalscreen.jpg)
 
 - Now to do that multiple times we can use the up arrow key to reuse the previous terminal line we used 
+
+## **You are finally done**
+
+[Click here to return to repository](https://cjramosucsd.github.io/cse15l-lab-reports/)
+
+
 
 
 
