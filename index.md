@@ -1,5 +1,11 @@
-# CSE15L Lab 2
+# CSE15L Repo
 ## Chester James Ramos
+
+## [Week 2 Lab Report 1](https://cjramosucsd.github.io/cse15l-lab-reports/week2labreport)
+
+## [Week 4 Lab Report 2](https://cjramosucsd.github.io/cse15l-lab-reports/week4labreport)
+
+
 **Bold Monke**
 *Italic Monke*
 [monke website](https://cjramosucsd.github.io/cse15l-lab-reports/)
