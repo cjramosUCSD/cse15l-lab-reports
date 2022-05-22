@@ -9,6 +9,8 @@
 
 ## [Week 8 Lab Report 4](https://cjramosucsd.github.io/cse15l-lab-reports/lab-report-4-week-8)
 
+## [Index (Already on index.md but just incase a link is needed)](https://cjramosucsd.github.io/cse15l-lab-reports/)
+
 **Bold Monke**
 *Italic Monke*
 [monke website](https://cjramosucsd.github.io/cse15l-lab-reports/)
