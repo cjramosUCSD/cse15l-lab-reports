@@ -5,6 +5,7 @@
 
 ## [Week 4 Lab Report 2](https://cjramosucsd.github.io/cse15l-lab-reports/week4labreport)
 
+## [Week 6 Lab Report 3](https://cjramosucsd.github.io/cse15l-lab-reports/lab-report-3-week-6)
 
 **Bold Monke**
 *Italic Monke*
