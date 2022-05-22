@@ -52,4 +52,4 @@ What links are being read (next to href if link is valid)
 ## Reviewed Markdown Repo Implementation
 ![Image](reviewrepo3.jpg)
 ## Response
-
+I think this can solved in a small change. The way I would approach this is since the output is having problems with newlines and MarkdownParse parses through each line, just break if it there is a blank line. 
